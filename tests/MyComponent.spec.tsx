@@ -1,11 +1,11 @@
 import { render, screen } from "@testing-library/react";
 
-import { MyComponent } from "../src/MyComponent";
+import { Selector } from "../src/Selector";
 
-test("MyComponent displays correctoy", () => {
-	render(<MyComponent title="My Component" />);
+test("Selector displays correctoy", () => {
+	render(<Selector title="Selector" />);
 
-	const heading = screen.getByText(/My Component/i);
+	const heading = screen.getByText(/Selector/i);
 
 	expect(heading).toBeInTheDocument();
 });

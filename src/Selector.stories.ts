@@ -1,17 +1,17 @@
 import type { Meta, StoryObj } from "@storybook/react";
 
-import { MyComponent } from "./MyComponent";
+import { Selector } from "./Selector";
 
 const meta = {
-	title: "MyComponent",
-	component: MyComponent,
-} satisfies Meta<typeof MyComponent>;
+	title: "Selector",
+	component: Selector,
+} satisfies Meta<typeof Selector>;
 
 export default meta;
 type Story = StoryObj<typeof meta>;
 
 export const Default: Story = {
 	args: {
-		title: "My Component",
+		title: "Selector",
 	},
 };

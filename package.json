@@ -1,14 +1,14 @@
 {
-  "name": "@codelytv/typescript-react-library-template",
-  "author": "codelytv",
+  "name": "selector",
+  "author": "terecsauri",
   "license": "MIT",
   "version": "1.0.0",
   "type": "module",
   "files": [
     "dist"
   ],
-  "main": "./dist/my-component.umd.cjs",
-  "module": "./dist/my-component.js",
+  "main": "./dist/selector.umd.cjs",
+  "module": "./dist/selector.js",
   "types": "./dist/index.d.ts",
   "peerDependencies": {
     "react": "^18.2.0",

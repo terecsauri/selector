@@ -1,9 +1,9 @@
-import { MyComponent } from "../src/MyComponent";
+import { Selector } from "../src/Selector";
 
-describe("<MyComponent />", () => {
+describe("<Selector />", () => {
 	it("renders", () => {
-		cy.mount(<MyComponent title="My component" />);
+		cy.mount(<Selector title="Selector" />);
 
-		cy.findByText(/My component/i);
+		cy.findByText(/Selector/i);
 	});
 });
